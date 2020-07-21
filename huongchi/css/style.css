@@ -379,6 +379,7 @@ li.right__menu {
   color: #fff;
   margin-top: 20px;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .orientation a {
@@ -500,3 +501,131 @@ li.right__menu {
 #pagination li a:hover:not(.active) {
   background-color: #ddd;
 } 
+
+.background-service {
+  height: 717px;
+  width: 100%;
+  background-image: url('../img/services/Asset 13-8.png'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service-content {
+  background-image: url('../img/services/Asset 14-8.png'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service-content h2 {
+  font-family: aptima;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 40px
+}
+
+.service-content h3 {
+  font-family: avo;
+  font-size: 40px;
+  margin-top: 40px
+}
+
+.service-content p {
+  text-align: justify;
+  font-size: 14px;
+  font-family: avo;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.service-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.schedule {
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.schedule h4 {
+    position: absolute;
+    text-align: center!important;
+    width: 100%;
+    top: 35%;
+    font-family: avo;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.orientation-service {
+  margin-bottom: 70px;
+}
+
+.orientation-service a {
+  font-family: avo;
+  font-size: 16px;
+  color: #472f91;
+}
+
+.backround__service {
+  height: 952px;
+  width: 100%;
+  background-image: url('../img/Services/Asset 12-8.png'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service-items a {
+    float: right;
+}
+
+ul.massage {
+    margin: 30px 0 30px 20px;
+}
+
+.service-items h3 {
+    text-align: start!important;
+}
+
+.service-items {
+  background-color: #fff!important;
+  height: 352px;
+  margin: 50px 0 50px 0;
+}
+
+.service-items .col-xs-6.col-sm-6.col-md-6.col-lg-6 {
+    padding: 0;
+}
+
+ul.massage li {
+    color: #472f91;
+}
+
+.service-items h3 {
+    color: #472f91;
+}
+
+.service__content-1 h3 {
+  font-family: aptima;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.service__content-1 {
+  background-color: #472f91;
+}
+
+.service__content-2 {
+  background-color: #feedee;  
+} 
+
+
