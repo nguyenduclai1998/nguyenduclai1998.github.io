@@ -527,7 +527,7 @@ li.right__menu {
 
 .service-content h3 {
   font-family: avo;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 40px
 }
 
@@ -587,7 +587,8 @@ li.right__menu {
 }
 
 ul.massage {
-    margin: 30px 0 30px 20px;
+    margin: 30px 0 30px 25px;
+    list-style: none;
 }
 
 .service-items h3 {
@@ -606,10 +607,21 @@ ul.massage {
 
 ul.massage li {
     color: #472f91;
+    font-family: avo;
+    font-size: 14px;
+    padding-top: 12px;
 }
 
 .service-items h3 {
     color: #472f91;
+}
+
+.service-items .col-xs-6.col-sm-6.col-md-6.col-lg-6 h3 {
+  color: #472f91;
+  margin-left: 25px;
+  font-family: avo;
+  font-weight: bold;
+  font-size: 38px;
 }
 
 .service__content-1 h3 {
@@ -628,4 +640,237 @@ ul.massage li {
   background-color: #feedee;  
 } 
 
+.service__content-2 .service-items .col-xs-6.col-sm-6.col-md-6.col-lg-6 h3 {
+  text-align: end!important;
+  padding-right: 47px!important
+}
 
+.service__content-2 .service-items .col-xs-6.col-sm-6.col-md-6.col-lg-6 .massage{
+  text-align: end;
+  padding-right: 20px;;
+}
+
+.header__modal {
+  height: 70px;
+  background-color: #472f91;
+}
+
+.header__modal img {
+  height: 60px;
+  padding-top: 10px;
+  width: auto;
+}
+
+.footer__modal {
+  height: 70px;
+  background-color: #472f91;
+}
+
+.model__content {
+  text-align: center;
+}
+
+.model__content form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.model__content form input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: #feedee;
+}
+
+.model__content form label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: avo;
+  font-size: 15px;
+  color: #472f91;
+}
+
+.model__content h3 {
+  font-family: avo;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #472f91;
+}
+
+.model__content h4 {
+  font-size: 24px;
+  font-family: avo;
+  text-align: center;
+  color: #472f91;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.backround__products {
+  height: 658px;
+  width: 100%;
+  background-image: url('../img/Products/Asset\ 70-8.png'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products__relax {
+  background-color: #4a4791;
+}
+
+.products__relax h3{
+  font-family: aquarelle;
+  font-size: 57px;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.innisfree img {
+  width: 100%;
+  height: auto;
+}
+
+.innisfree {
+  background-color: #101d40;
+  padding: 20px;
+}
+
+.innisfree h3{
+  font-family: avo;
+  font-weight: bold;
+  font-size: 34px;
+  margin: 0;
+  text-align: start;
+  color: #fff;
+}
+
+.innisfree p {
+  font-family: avo;
+  font-size: 14px;
+  color: #fff;
+}
+
+.product__items {
+  margin-top: 20px;
+  padding: 20px 5px 20px 15px;
+  background-color: #101d40;
+}
+
+.naruko h3 {
+  font-size: 34px!important;
+  margin: 0;
+  font-family: avo;
+  font-weight: bold!important;
+  text-align: start!important;
+  color: #fff;
+}
+
+.naruko p {
+  font-family: avo;
+  font-size: 14px;
+  color: #fff;
+}
+
+.shampoo h3 {
+  font-size: 34px!important;
+  margin: 0;
+  font-family: avo;
+  font-weight: bold!important;
+  text-align: start!important;
+  color: #fff;
+}
+
+.shampoo p {
+  font-family: avo;
+  font-size: 14px;
+  color: #fff;
+}
+
+.medicine__item img {
+  width: 100%;
+}
+
+.medicine h3 {
+  font-family: aquarelle;
+  font-size: 57px;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.medicine {
+  background-color: #cf8b31;
+}
+
+.medicine__item h3 {
+  font-size: 34px!important;
+  margin: 0;
+  font-family: avo;
+  font-weight: bold!important;
+  text-align: start!important;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.medicine__item p {
+  font-family: avo;
+  font-size: 14px;
+  color: #fff;
+}
+
+.oil img {
+  width: 100%;
+}
+
+.oil {
+  background-color: #feedee;
+}
+
+.oil h3 {
+  font-family: aquarelle;
+  font-size: 57px;
+  color: #472f91;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.oil .col-xs-4.col-sm-4.col-md-4.col-lg-4 h3 {
+  font-size: 34px!important;
+  margin: 0;
+  font-family: avo;
+  font-weight: bold!important;
+  text-align: start!important;
+  color: #472f91;;
+  margin-top: 10px;
+}
+
+.oil .col-xs-4.col-sm-4.col-md-4.col-lg-4 p {
+  font-family: avo;
+  font-size: 14px;
+  color: #472f91;
+}
+
+.oil__items-below {
+  margin-top: 70px;
+}
+
+.orientation-product {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.orientation-product a {
+  font-size: 14px;
+  color: #472f91;
+  font-family: avo;
+}
