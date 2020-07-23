@@ -130,7 +130,7 @@ li.right__menu {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 .doctor{
@@ -185,8 +185,7 @@ li.right__menu {
 	font-size: 45px;
 	line-height: 110px;
 	color: #fff;
-	font-weight: 900;
-	font-family: aquarell;
+	font-family: aquarelle;
 }
 
 .product{
@@ -380,6 +379,7 @@ li.right__menu {
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: justify;
+  text-indent: 55px;
 }
 
 .orientation a {
@@ -522,13 +522,15 @@ li.right__menu {
   font-family: aptima;
   font-weight: bold;
   font-size: 45px;
-  margin-top: 40px
+  margin-top: 40px;
+  color: #472f91;
 }
 
 .service-content h3 {
   font-family: avo;
   font-size: 30px;
-  margin-top: 40px
+  margin-top: 40px;
+  color: #472f91;
 }
 
 .service-content p {
@@ -538,6 +540,7 @@ li.right__menu {
   font-weight: bold;
   margin-bottom: 50px;
   margin-top: 50px;
+  color: #472f91;
 }
 
 .service-content img {
@@ -574,7 +577,7 @@ li.right__menu {
 }
 
 .backround__service {
-  height: 952px;
+  height: 931px;
   width: 100%;
   background-image: url('../img/Services/Asset 12-8.png'); 
   background-position: center;
@@ -873,4 +876,8 @@ ul.massage li {
   font-size: 14px;
   color: #472f91;
   font-family: avo;
+}
+
+.footer a {
+  color: #fff;
 }
