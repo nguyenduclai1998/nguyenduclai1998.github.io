@@ -147,19 +147,19 @@ li.right__menu {
 	font-weight: 900;
 	text-align: center;
 	padding: 40px 0 32px 0;
-	font-family: avo;
+	font-family: aptima;
 }
 
 .doctor img {
-	width: 80%;
-	height: auto;
+	width: 281px;
+	height: 281px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 .description strong {
-	font-size: 16px;
+	font-size: 14px;
 	color: #fff;
 }
 
@@ -169,8 +169,8 @@ li.right__menu {
 }
 
 .description {
-	margin-top: -68px;
-    margin-left: 108px;
+	margin-top: -60px;
+  margin-left: 115px;
 }
 
 .page__title {
@@ -331,8 +331,8 @@ li.right__menu {
     font-family: avo;
 }
 
-.col-xs-3.col-sm-3.col-md-3.col-lg-3.about img {
-    padding: 0 25px 0 5px;
+.col-xs-4.col-sm-4.col-md-4.col-lg-4.about img {
+  padding: 15px 78px 0 0px;
 }
 
 .about label {
@@ -379,7 +379,7 @@ li.right__menu {
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: justify;
-  text-indent: 55px;
+  text-indent: 77px;
 }
 
 .orientation a {
@@ -390,6 +390,7 @@ li.right__menu {
 
 .orientation {
   margin-bottom: 60px;
+  margin-top: 80px;
 }
 .boder-about {
   height: 2px;
@@ -413,14 +414,14 @@ li.right__menu {
   height: 390px;
   background-color:#472f91;
   width: auto;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 .blog-2 {
   height: 390px;
   background-color: #feedee;
   width: auto;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 .blog-1 img {
@@ -526,11 +527,12 @@ li.right__menu {
   color: #472f91;
 }
 
-.service-content h3 {
-  font-family: avo;
-  font-size: 30px;
-  margin-top: 40px;
-  color: #472f91;
+.service-content ul li {
+    font-family: avo;
+    font-size: 30px;
+    margin-left: 30px;
+    color: #472f91;
+    margin-top: 40px;
 }
 
 .service-content p {
@@ -541,6 +543,7 @@ li.right__menu {
   margin-bottom: 50px;
   margin-top: 50px;
   color: #472f91;
+  text-indent: 77px;
 }
 
 .service-content img {
@@ -880,4 +883,12 @@ ul.massage li {
 
 .footer a {
   color: #fff;
+}
+
+ul#pagination a {
+  font-family: avo;
+}
+
+.fa {
+  font-size: 15px!important;
 }
