@@ -14,7 +14,7 @@
         <meta name="news_keywords" content="mualikegiare, Mua like giá rẻ, Tăng follow Facebook, Tăng like page Facebook, Tăng tương tác Facebook, Tăng comment Facebook, Tăng like facebook giá rẻ, Tăng tương tác Facebook, Tăng tương tác Instagram">
         <meta name="og:title" content="Hệ thống mua like giá rẻ số 1 Việt Nam - mualikegiare.xyz">
         <meta name="og:description" content="Chuyên cung cấp các dịch vụ tăng Like, Share, Comment, Follow... cho các Mạng xã hội như Facebook, Instagram, Tiktok một cách nhanh chóng và tiết kiệm">
-        <link rel="icon" href="images/favicon.jpg" type="image/gif" sizes="16x16">
+        <link rel="icon" class="lazy" href="images/favicon.jpg" type="image/gif" sizes="16x16">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <!-- <link rel="stylesheet" type="text/css" href="css/accordian.css"> -->
@@ -107,7 +107,7 @@
             <div class="header">
                 <div class="container header-container">
                     <div class="col-lg-6 header-img-section">
-                        <img src="images/header.png">
+                        <img class="lazy" src="images/header.png">
                     </div>
                     <div class="col-lg-5 offset-lg-1 header-title-section">
                         <h1 class="header-title">Tương tác với bạn bè hiệu quả hơn với <strong class="text-primary"><?php echo $_SESSION['title'] ?? "Autolike" ?></strong></h1>
@@ -121,7 +121,7 @@
             <!-- STRATEGY SECTION -->
             <div class="strategy-section" id="services">
                 <div class="strategy-section-bg-graphics-section">
-                    <img src="images/strategy-section-bg.png">
+                    <img class="lazy" src="images/strategy-section-bg.png">
                 </div>
                 <div class="pricing-title">
                     <h2><?php echo $_SESSION['title'] ?? "Autolike" ?> Services</h2>
@@ -131,7 +131,7 @@
                     <div class="col-lg-4 col-md-6 col-xs-8 offset-xs-2 strategy-card-section">
                         <div class="strategy-card">
                             <div class="strategy-card-icon-section">
-                                <img src="images/facebook.svg">
+                                <img class="lazy" src="images/facebook.svg">
                             </div>
                             <h2>Facebook</h2>
                             <p>Chuyên cung cấp các dịch vụ tăng Like, Share, Comment, Follow...</p>
@@ -140,7 +140,7 @@
                     <div class="col-lg-4 col-md-6 col-xs-8 offset-xs-2 strategy-card-section">
                         <div class="strategy-card">
                             <div class="strategy-card-icon-section">
-                                <img src="images/ig.svg">
+                                <img class="lazy" src="images/ig.svg">
                             </div>
                             <h2>Instagram</h2>
                             <p>Chuyên cung cấp các dịch vụ tăng Like, Share, Comment, Follow...</p>
@@ -149,7 +149,7 @@
                     <div class="col-lg-4 col-md-6 col-xs-8 offset-xs-2 strategy-card-section">
                         <div class="strategy-card">
                             <div class="strategy-card-icon-section">
-                                <img src="images/tiktok.svg">
+                                <img class="lazy" src="images/tiktok.svg">
                             </div>
                             <h2>Tiktok</h2>
                             <p>Chuyên cung cấp các dịch vụ tăng Like, Share, Comment, Follow...</p>
@@ -164,10 +164,10 @@
             <!-- PRICING -->
             <div class="pricing-section">
                 <div class="pricing-section-left-bg-graphics">
-                    <img src="images/pricing-section-left-bg.png">
+                    <img class="lazy" src="images/pricing-section-left-bg.png">
                 </div>
                 <div class="pricing-section-right-bg-graphics">
-                    <img src="images/pricing-section-right-bg.png">
+                    <img class="lazy" src="images/pricing-section-right-bg.png">
                 </div>
                 <div class="container pricing-container">
                     <div class="pricing-title">
@@ -228,7 +228,7 @@
             </div>
             <div class="footer-section" id="contact">
                 <div class="footer-section-bg-graphics">
-                    <img src="images/footer-section-bg.png">
+                    <img class="lazy" src="images/footer-section-bg.png">
                 </div>
                 <!-- Footer Column 1 -->
                 <div class="container footer-container">
@@ -269,15 +269,25 @@
         <script src="js/owl.carousel.js"></script>
         <script src="js/accordian.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- jsDeliver -->
+		<script type="text/javascript" src="//cdn.jsdelivr.net/gh/dkern/jquery.lazy@1.7.10/jquery.lazy.min.js"></script>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/gh/dkern/jquery.lazy@1.7.10/jquery.lazy.plugins.min.js"></script>
+
+		<!-- cdnjs -->
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.plugins.min.js"></script>
         <!-- Header scroll -->
         <script type="text/javascript">
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 20) {
-                  $('#navbar').addClass('header-scrolled');
+                  	$('#navbar').addClass('header-scrolled');
                 } else {
-                  $('#navbar').removeClass('header-scrolled');
+                  	$('#navbar').removeClass('header-scrolled');
                 }
-              });       
+            });    
+            $(function($) {
+			   $("img.lazy").Lazy();
+			});   
         </script>
     </body>
 </html>
