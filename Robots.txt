@@ -1,0 +1,4 @@
+User-agent: Googlebot
+allow: *
+
+Sitemap: https://mualikegiare.tk/sitemap.xml
