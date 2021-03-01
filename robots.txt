@@ -1,4 +1,4 @@
 User-agent: Googlebot
-allow: *
-
+Disallow:
+Allow: *
 Sitemap: https://mualikegiare.tk/sitemap.xml
