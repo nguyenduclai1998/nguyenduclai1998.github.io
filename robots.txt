@@ -2,5 +2,4 @@ User-agent: *
 Allow: /
 Host: https://mualikegiare.tk
 Disallow
-Sitemap: https://mualikegiare.tk/sitemap_index.xml/
 Sitemap: https://mualikegiare.tk/sitemap.xml/
