@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Host: https://devquen.xyz
 Disallow
-Sitemap: https://devquen.xyz/sitemap.xml/
+Sitemap: https://devquen.xyz/sitemap.xml
