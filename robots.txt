@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Host: https://mualikegiare.tk
+Host: https://devquen.xyz
 Disallow
-Sitemap: https://mualikegiare.tk/sitemap.xml/
+Sitemap: https://devquen.xyz/sitemap.xml/
